@@ -7,7 +7,7 @@ async function main() {
   const ConfluxERC1155NFT = await hre.conflux.getContractFactory(
     "ConfluxERC1155NFT"
   );
-  const receipt = await ConfluxERC1155NFT.constructor()
+  const receipt = await ConfluxERC1155NFT.constructor("Confi", "Confi")
     .sendTransaction({
       from: defaultAccount.address,
     })

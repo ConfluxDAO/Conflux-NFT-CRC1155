@@ -1,4 +1,4 @@
-equire("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-toolbox");
 require("hardhat-conflux");
 
 const PRIVATE_KEY = "YOUR_PRIVATE_KEY_HERE";
